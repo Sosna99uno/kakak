@@ -19,9 +19,15 @@
       text-align: center;
     }
 
-    h1 {
+    header h1 {
       margin: 0;
       font-size: 2.5rem;
+    }
+
+    .phone-number {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #FFD700;
     }
 
     .content {
@@ -64,6 +70,37 @@
       background-color: #e6c200;
     }
 
+    .services {
+      background-color: #f9f9f9;
+      border: 2px solid #FFD700;
+      padding: 2rem;
+      margin-top: 3rem;
+      border-radius: 8px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .services h2 {
+      margin-top: 0;
+      color: #000;
+    }
+
+    .services ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 1.1rem;
+    }
+
+    .services ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .services ul li:last-child {
+      border-bottom: none;
+    }
+
     footer {
       background-color: #000;
       color: #FFD700;
@@ -76,22 +113,6 @@
 <body>
   <header>
     <h1>USŁUGI MIKROKOPARKĄ</h1>
-  </header>
+    <div class="phone-number">📞 +48 777 777 777</div>
+  </
 
-  <section class="content">
-    <p>Oferujemy precyzyjne prace ziemne mikrokoparką – wykopy pod instalacje, ogrodzenia, drenaże i wiele więcej. Sprawnie, dokładnie i zawsze na czas!</p>
-
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Mikrokoparka 1" />
-      <img src="https://images.unsplash.com/photo-1581090700227-1c8c567b02d3" alt="Mikrokoparka 2" />
-      <img src="https://images.unsplash.com/photo-1608224897421-8897d01ff64a" alt="Mikrokoparka 3" />
-    </div>
-
-    <a class="contact-button" href="tel:+48123456789">Zadzwoń teraz</a>
-  </section>
-
-  <footer>
-    &copy; 2025 Usługi Mikrokoparką. Wszystkie prawa zastrzeżone.
-  </footer>
-</body>
-</html>
